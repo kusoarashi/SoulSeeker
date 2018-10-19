@@ -2,12 +2,19 @@
 An Asheron's Call PvP / macro assist plugin.
 
 Features:
+
 -PK Logout
+
 -Low Comps Logout
+
 -Vitae Logout
+
 -Alt+F4 Alternative Logout
+
 -Friends Database
+
 -Sounds
+
 -Allegiance Chat Alert
 
 The original goal was better integration with Thwargle Launcher's "Auto Relaunch".
