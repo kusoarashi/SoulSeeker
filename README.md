@@ -17,4 +17,5 @@ enable Alt+F4 and change line 21 in Thwargle.exe.config to the following:
     <add key="NewGameTitle" value="%CHARACTER%" />
 
 Edit monarch.cfg to contain the 10 digit GUID of your allegiance monarch.
+
 Edit friends.cfg and add 10 digit GUIDs of non-allegiance members.
