@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<view icon="7729" title="SoulSeeker" width="300" height="420">
+  <control progid="DecalControls.Notebook" name="nbMain">
+
+    <page label="Enemies">
+      <control progid="DecalControls.FixedLayout" clipped="">
+          <control progid="DecalControls.List" name="PlayerList" left="0" top="0" width="300" height="350">
+            <column progid="DecalControls.TextColumn" name="Name" left="5" width="145" />
+            <column progid="DecalControls.TextColumn" name="Monarch" left="160" width="145" />
+            <column progid="DecalControls.TextColumn" name="GUID" width="0" />
+          </control>
+          <control progid="DecalControls.StaticText" name="Target" left="5" top="357" width="35" height="20" text="Target:" />
+          <control progid="DecalControls.StaticText" name="NewFriend" left="45" top="358" width="80" height="20" />
+          <control progid="DecalControls.PushButton" name="AddFriend" left="120" top="357" width="65" height="20" text="Add Friend" />
+          <control progid="DecalControls.PushButton" name="FImp" left="190" top="357" width="15" height="20" text="I" />
+          <control progid="DecalControls.PushButton" name="FVuln" left="210" top="357" width="15" height="20" text="V" />
+          <control progid="DecalControls.PushButton" name="FArc" left="230" top="357" width="15" height="20" text="A" />
+          <control progid="DecalControls.PushButton" name="FBolt" left="250" top="357" width="15" height="20" text="B" />
+          <control progid="DecalControls.PushButton" name="FStreak" left="270" top="357" width="15" height="20" text="S" />
+      </control>
+      
+    </page>
+
+    <page label="Options">
+      <control progid="DecalControls.FixedLayout" clipped="">
+        <control height="20" width="100" name="LogoutCheckBox" progid="DecalControls.CheckBox" text="PK Logout" top="5" left="5"/>
+        <control height="20" width="120" name="DeathLogoutCheckBox" progid="DecalControls.CheckBox" text="Death Logout" top="25" left="5"/>
+        <control height="20" width="140" name="VitaeCheckBox" progid="DecalControls.CheckBox" text="Vitae Logout" top="45" left="5"/>
+        <control height="20" width="140" name="CompsCheckBox" progid="DecalControls.CheckBox" text="Low Comps Logout" top="65" left="5"/>
+        <control height="20" width="100" name="AlertCheckBox" progid="DecalControls.CheckBox" text="PK Alert" top="95" left="5"/>
+        <control height="20" width="100" name="ALTF4CheckBox" progid="DecalControls.CheckBox" text="Alt+F4" top="125" left="5"/>
+        <control height="20" width="140" name="FellowTargetCheckBox" progid="DecalControls.CheckBox" text="Fellowship Targeting" top="155" left="5"/>
+        <control height="20" width="140" name="SoundsCheckBox" progid="DecalControls.CheckBox" text="Sounds" top="185" left="5"/>
+        <control progid="DecalControls.PushButton" name="SaveButton" left="95" top="300" width="120" height="30" text="Save Settings" />
+      </control>
+    </page>
+
+  </control>
+</view>
