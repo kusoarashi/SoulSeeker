@@ -1,7 +1,6 @@
 # SoulSeeker
 An Asheron's Call PvP / macro assist plugin. Features include:
 
-
 -PK Logout, Low Comps Logout, Vitae Logout
 
 -Alt+F4 Alternative Logout
