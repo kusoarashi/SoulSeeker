@@ -11,8 +11,7 @@ An Asheron's Call PvP / macro assist plugin. Features include:
 
 -Allegiance Chat Alert
 
-To utilize the Thwargle Launcher's "Auto Relaunch" feature you *must*
-enable Alt+F4 and change line 21 in Thwargle.exe.config to the following:
+The Alt+F4 feature *requires* the change of line 21 in Thwargle.exe.config to the following:
 
     <add key="NewGameTitle" value="%CHARACTER%" />
 
