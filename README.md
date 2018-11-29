@@ -21,11 +21,11 @@ Edit friends.cfg and add 10 digit GUIDs of non-allegiance members.
 
 
 ***Special thanks in no particular order go out to:***
-Morosity
-LikeableLime
-Immortal Bob
-parad0x
-ChosenOne
-shark
-Pea
+Morosity,
+LikeableLime,
+Immortal Bob,
+parad0x,
+ChosenOne,
+shark,
+Pea,
 Plus Ev
