@@ -278,8 +278,8 @@ namespace SoulSeeker
             {
                 int friendID = Convert.ToInt32(friend);
                 
-                if (int.TryParse(friend, out int friendID)) //thx again parad0x
-                    Friends.Add(friendID, friendID);
+                if (int.TryParse(friend, out int newFriendID)) //thx again parad0x
+                    Friends.Add(newFriendID, newFriendID);
             }
 
             try
@@ -362,14 +362,20 @@ namespace SoulSeeker
 
             switch (MonarchID)
             {
-                case 1342194028:
-                    str = "Hookin and Cookin";
-                    break;
-                case 1342184788:
-                    str = "Charmin";
-                    break;
-                case 1342179702:
+                case 1342177983:
                     str = "Get Down";
+                break;
+                case 1342179355:
+                    str = "Tavo";
+                break;
+                case 1342177905:
+                    str = "Rocdoc";
+                break;
+                case 1342177961:
+                    str = "Butt Plug";
+                    break;
+                case 1342177758:
+                    str = "Charmin";
                     break;
                 case 0:
                     str = "-no monarch-";
