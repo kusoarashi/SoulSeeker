@@ -277,8 +277,9 @@ namespace SoulSeeker
             foreach (string friend in friends)
             {
                 int friendID = Convert.ToInt32(friend);
-
-                Friends.Add(friendID, friendID);
+                
+                if (int.TryParse(friend, out int friendID)) //thx again parad0x
+                    Friends.Add(friendID, friendID);
             }
 
             try
