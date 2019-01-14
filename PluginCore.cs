@@ -434,7 +434,7 @@ namespace SoulSeeker
                 else
                     Host.Actions.SelectItem(Convert.ToInt32(text1.Substring(num1 + 1, 10)));
 
-                //Host.Actions.CastSpell(0x709, Host.Actions.CurrentSelection);
+               Host.Actions.CastSpell(0x709, Host.Actions.CurrentSelection);
             }
         }
 
